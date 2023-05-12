@@ -4,6 +4,13 @@
              x:Class="PDC03_MOD04.MainPage">
 
     <StackLayout>
+
+        <Button Text="Activity1 Mod4" Clicked="Openactivity1"></Button>
+        <Button Text="Activity02 Mod4" Clicked="Openactivity02"></Button>
+        <Button Text="Activity03 Mod4" Clicked="Openactivity03"></Button>
+        <Button Text="Activity04 Mod4" Clicked="Openactivity04"></Button>
+        <Button Text="Activity05 Mod4" Clicked="Openactivity05"></Button>
+        
         <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
             <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
         </Frame>
